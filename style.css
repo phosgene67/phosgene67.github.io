@@ -389,6 +389,68 @@ body.light-mode .hero-subtitle {
     justify-content: center;
     flex-wrap: wrap;
 }
+/* Social Links in Hero */
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+    animation: fadeInUp 0.8s ease-out 0.6s both;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    border: 2px solid transparent;
+    transition: all var(--transition-normal);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    transform: translateY(-5px) scale(1.1);
+    border-color: var(--text-primary);
+    box-shadow: 0 8px 20px var(--shadow-color);
+}
+
+.social-icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+/* Light Mode */
+body.light-mode .social-icon {
+    background-color: var(--light-bg-secondary);
+    color: var(--light-text-primary);
+}
+
+body.light-mode .social-icon:hover {
+    border-color: var(--light-text-primary);
+    box-shadow: 0 8px 20px var(--light-shadow-color);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .social-links {
+        gap: 1rem;
+    }
+    
+    .social-icon {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .social-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+}
 
 .hero-image {
     z-index: 1;
