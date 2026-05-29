@@ -10,7 +10,7 @@ export const personData = {
   blogUrl: "https://blog.example.com",
   resumeUrl: "/resume.pdf",
   about: {
-    intro: "I'm Sami, an EEE (Electrical and Electronic Engineering) student at Shajalal University of Science and Technology with a passion for robotics, embedded systems, machine learning and AI automation.",
+    intro: "I'm Sami, an EEE (Electrical and Electronic Engineering) student at Shahjalal University of Science and Technology with a passion for robotics, embedded systems, machine learning and AI automation.",
     body: [
       "With hands-on experience in designing and building robotic systems, I specialize in creating intelligent solutions that combine hardware design, firmware development, and control algorithms. From underwater ROVs to autonomous UAVs, I enjoy tackling complex engineering challenges with innovative approaches and bringing cutting-edge automation to real-world problems.",
       "My expertise spans across microcontroller programming, sensor integration, real-time systems, and AI automation. I'm particularly focused on intelligent robotics where AI and machine learning drive autonomous behavior and adaptive control systems that can learn and improve over time."
