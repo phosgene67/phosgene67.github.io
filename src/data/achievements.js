@@ -1,4 +1,7 @@
 export const achievementsData = [
+  // Example: certificateImage: "/certificates/certificate.jpg",
+  // certificatePdfUrl: "/certificates/certificate.pdf",
+  // certificateLink: "https://credential-provider.example/verify/credential-id",
   // {
   //   id: 1,
   //   type: "certification",
@@ -11,7 +14,11 @@ export const achievementsData = [
     type: "ambassador",
     title: "Campus Ambassador",
     date: "2024",
-    description: "EasyEDA campus ambassador"
+    description: "EasyEDA campus ambassador",
+    // Place files in public/certificates/ and reference them with /certificates/file-name.ext.
+    certificateImage: "",
+    certificatePdfUrl: "",
+    certificateLink: ""
   },
   // {
   //   id: 3,
@@ -25,6 +32,9 @@ export const achievementsData = [
     type: "competition",
     title: "Grand Auto Prix (LFR)",
     date: "2026",
-    description: "Runners Up  in Line follower robot competition organized by ROBOSUST"
+    description: "Runners Up in Line Follower Robot competition organized by ROBOSUST",
+    certificateImage: "",
+    certificatePdfUrl: "",
+    certificateLink: ""
   }
 ]
