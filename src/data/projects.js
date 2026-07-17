@@ -57,6 +57,6 @@ export const projectsData = [
     githubUrl: "https://github.com/phosgene67",
     demoUrl: null,
     status: "Completed",
-    image: "/videos/mde.mp4"
+    image: "/images/mde.jpg"
   }
 ]
