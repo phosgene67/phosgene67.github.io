@@ -84,22 +84,31 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* Image/Illustration */}
+          {/* Set personData.heroImage to replace the default illustration. */}
           <div className="flex justify-center items-center">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl bg-gradient-to-br from-primary-100 to-primary-50 flex items-center justify-center overflow-hidden shadow-lg">
-              <svg
-                className="w-48 h-48 md:w-64 md:h-64 text-primary-600"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={1.5}
-                  d="M13 10V3L4 14h7v7l9-11h-7z"
+              {personData.heroImage ? (
+                <img
+                  src={personData.heroImage}
+                  alt={personData.heroImageAlt}
+                  className="w-full h-full object-cover"
                 />
-              </svg>
+              ) : (
+                <svg
+                  className="w-48 h-48 md:w-64 md:h-64 text-primary-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={1.5}
+                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                  />
+                </svg>
+              )}
             </div>
           </div>
         </div>
