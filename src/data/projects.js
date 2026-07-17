@@ -7,7 +7,7 @@ export const projectsData = [
     githubUrl: "https://github.com/phosgene67/SEAHAWK--underwater-rov",
     demoUrl: null,
     status: "Completed",
-    image: "/images/SeaHawk3d_design"
+    image: "/images/SeaHawk3d_design.png"
   },
    {
     id: 2,
@@ -52,7 +52,7 @@ export const projectsData = [
   {
     id: 6,
     title: "Monocular depth estimation",
-    description: "",
+    description: "Monocular depth estimation is the task of predicting per-pixel scene depth (distance from the camera) using only a single 2D image, without stereo pairs or dedicated depth sensors. It relies on learned visual cues—like object size, texture gradients, occlusion, and perspective—typically via deep neural networks trained on datasets with ground-truth depth (from LiDAR or stereo) to generalize this estimation to new scenes",
     technologies: ["OpenCV", "Tensorflow", "Python", "Sensors"],
     githubUrl: "https://github.com/phosgene67",
     demoUrl: null,
