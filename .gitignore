@@ -40,7 +40,7 @@ build/
 logs/
 
 # Optional: Large media files (uncomment if needed)
-# *.mp4
+
 # *.mov
 # *.avi
 # *.zip
