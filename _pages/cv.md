@@ -1,64 +1,118 @@
 ---
-layout: archive
+layout: "single"
 title: "CV"
-permalink: /cv/
+permalink: "/cv/"
 author_profile: true
-redirect_from:
-  - /resume
+redirect_from: ["/resume","/resume/"]
 ---
 
-{% include base_path %}
+## Md Abdullah Al Sami Chowdhury
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+Electrical & Electronic Engineering Student | Robotics | Embedded Systems | PCB Design
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+SUST, Bangladesh<br>
+Email: [samfibo06@gmail.com](mailto:samfibo06@gmail.com)<br>
+GitHub: [github.com/phosgene67](https://github.com/phosgene67)<br>
+LinkedIn: [Md Abdullah Al Sami Chowdhury](https://www.linkedin.com/in/md-abdullah-al-sami-chowdhury-884a58392)<br>
+Facebook: [abdullah.al.sami.104873](https://facebook.com/abdullah.al.sami.104873)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Profile
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+EEE student at Shahjalal University of Science and Technology with a focus on robotics, embedded systems, machine learning, AI automation, and electronic hardware. Experienced in designing and building robotic systems that combine hardware, firmware, sensors, control algorithms, and user interfaces.
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+Interested in intelligent robotics, autonomous systems, real-time control, embedded programming, PCB design, and practical engineering solutions.
+
+## Education
+
+### B.Sc. Engineering in Electrical & Electronic Engineering
+
+Shahjalal University of Science and Technology (SUST)<br>
+Session: 2024–2025<br>
+Expected Graduation: 2028
+
+### Relevant Coursework
+
+- Embedded Systems Design
+- Microprocessors & Microcontrollers
+- Control Systems
+- Signals & Systems Analysis
+- Power Electronics
+- Digital Logic Design
+- Advanced Robotics
+
+
+## Technical Skills
+
+### Programming Languages
+
+C, C++, Python, MATLAB
+
+### Machine Learning and Computer Vision
+
+Machine Learning, NumPy, OpenCV
+
+### CAD and PCB Design
+
+Fusion 360, AutoCAD, EasyEDA, KiCad
+
+### Robotics and Control
+
+ROS, ROS 2, Gazebo, Kinematics, PID Control
+
+### Simulation and Analysis
+
+Isaac Sim, Isaac Lab, MATLAB Simulink, LTspice, Unity
+
+## Selected Projects
+
+### SEAHAWK Underwater ROV
+
+Designed and built an underwater remotely operated vehicle with eight BLDC thrusters controlled through Ethernet. The system includes real-time telemetry, live video streaming, PID-based stabilization, and Manual, Stabilize, Depth Hold, and Heading Hold modes.
+
+Technologies: Python, Arduino Mega, PyQt6, Robotics, PID Control<br>
+GitHub: [SEAHAWK Underwater ROV](https://github.com/phosgene67/SEAHAWK--underwater-rov)
+
+### LFRSIM
+
+Desktop simulation project for experimenting with PID-controlled line-following robots and learning robot behavior through simulation.
+
+Technologies: Python, Pygame, NumPy, Matplotlib<br>
+GitHub: [LFRSIM](https://github.com/phosgene67/LFRSIM)
+
+### High-Speed Line Follower Robot
+
+Built an Arduino Nano-based line follower using PID control, motor-speed adjustment, and acceleration ramping for precise tracking through straight paths and sharp turns.
+
+Technologies: Arduino, C++, Control Systems<br>
+GitHub: [SUST IGNITE](https://github.com/phosgene67/SUST-IGNITE)
+
+### Object Avoiding Robot
+
+Developed an autonomous mobile robot using ultrasonic sensing, PWM motor control, and real-time obstacle avoidance.
+
+Technologies: Arduino, C++, Robotics, Sensors<br>
+GitHub: [GitHub Profile](https://github.com/phosgene67)
+
+### Monocular Depth Estimation
+
+Worked on single-image depth prediction using computer vision and deep-learning methods to estimate scene depth from a 2D image.
+
+Technologies: Python, OpenCV, TensorFlow, Computer Vision<br>
+GitHub: [Monocular Depth Estimation](https://github.com/phosgene67/MonocularDepthEstimation_CV)
+
+## Achievements and Activities
+
+- Asst. Secretary of Project & Planning :ROBOSUST, 2026
+
+- Campus Ambassador, EasyEDA, 2024
+- Runner-up, Grand Auto Prix Line Follower Robot Competition, ROBOSUST, 2026
+
+## Publications
+
+No publications listed yet. Research papers can be added through the portfolio's Publications section.
+
+## Additional Links
+
+- Portfolio: [sami chowdhury](https://www.fiboxsami.me)
+
+[Download CV (Markdown)]({{ '/files/cv.md' | relative_url }})

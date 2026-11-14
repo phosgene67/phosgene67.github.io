@@ -1,14 +1,21 @@
 ---
-layout: archive
-title: "Portfolio"
-permalink: /portfolio/
+layout: "single"
+title: "Projects"
+permalink: "/portfolio/"
 author_profile: true
+redirect_from: ["/projects/"]
 ---
 
-{% include base_path %}
-
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+<div class="portfolio-projects">
+{% assign projects = site.portfolio | sort: 'order' %}
+{% for project in projects %}
+  <article class="portfolio-project">
+    <a href="{{ project.url | relative_url }}"><img class="portfolio-project__image" src="{{ project.header.teaser | prepend: '/images/' | relative_url }}" alt="{{ project.title | escape }}" loading="lazy"></a>
+    <h2><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
+    <p><strong>Status:</strong> {{ project.status }}</p>
+    <p>{{ project.excerpt | strip_html }}</p>
+    <p><strong>Technologies:</strong> {{ project.technologies | join: ', ' }}</p>
+    <p><a href="{{ project.url | relative_url }}">{{ project.title }}</a> · <a href="{{ project.github_url }}">GitHub</a>{% if project.demo_url %} · <a href="{{ project.demo_url }}">Live Demo</a>{% endif %}</p>
+  </article>
 {% endfor %}
-
+</div>

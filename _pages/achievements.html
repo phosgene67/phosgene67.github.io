@@ -1,0 +1,19 @@
+---
+layout: "single"
+title: "Achievements & Activities"
+permalink: "/achievements/"
+author_profile: true
+---
+
+<p>Selected certifications, leadership roles, and competition results.</p>
+{% for achievement in site.data.achievements %}
+<section>
+  <h2>{{ achievement.title }}</h2>
+  <p><strong>{{ achievement.year }}</strong></p>
+  <p>{{ achievement.description }}</p>
+  {% if achievement.certificate_image %}
+  <a href="{{ achievement.certificate_image | relative_url }}"><img class="achievement-certificate" src="{{ achievement.certificate_image | relative_url }}" alt="{{ achievement.title | escape }} certificate" loading="lazy"></a>
+  <p><a href="{{ achievement.certificate_image | relative_url }}">View Image</a></p>
+  {% endif %}
+</section>
+{% endfor %}

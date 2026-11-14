@@ -1,0 +1,16 @@
+---
+layout: "single"
+title: "Blog & Articles"
+permalink: "/blog/"
+author_profile: true
+redirect_from: ["/year-archive/"]
+---
+
+<p>I'm working on a comprehensive blog about robotics, embedded systems, and engineering. Check back soon for in-depth articles and tutorials!</p>
+{% for article in site.data.blog %}
+<section>
+  <h2>{{ article.title }}</h2>
+  <p><strong>{{ article.status }}</strong></p>
+  <p>{{ article.excerpt }}</p>
+</section>
+{% endfor %}

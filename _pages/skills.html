@@ -1,0 +1,13 @@
+---
+layout: "single"
+title: "Technical Skills"
+permalink: "/skills/"
+author_profile: true
+---
+
+{% for category in site.data.skills %}
+<section>
+  <h2>{% if category.icon contains '/' %}<img src="{{ category.icon | relative_url }}" width="40" height="40" alt=""> {% else %}<span aria-hidden="true">{{ category.icon }}</span> {% endif %}{{ category.title }}</h2>
+  <p>{{ category.skills }}</p>
+</section>
+{% endfor %}
