@@ -27,7 +27,7 @@ B.Sc. Engineering in Electrical & Electronic Engineering
 Shajalal University of Science and Technology (SUST)
 
 Session: 24-25<br>
-Expected Graduation: 2028
+
 
 ### Relevant Coursework
 
